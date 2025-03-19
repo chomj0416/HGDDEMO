@@ -32,10 +32,11 @@ h1{
 .navbar ul{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 
 .navbar ul li {
-margin-left: 20pc;
+margin-left: 20px;
 }
 
 .navbar .logo{
@@ -46,18 +47,28 @@ margin-left: 20pc;
 .navbar a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:0 30px;
+}
 
+.main{
+    color: blue;
+    line-height: 2;
+}
 .navbar a:hover{
-    border-bottom: 2px; #fff
+    background-color: black;
+    color: white;
 }
 
 button{
     padding: 5px 10px;
     margin: 5px;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     background-color: lightgray;
     border-radius: 5px;
